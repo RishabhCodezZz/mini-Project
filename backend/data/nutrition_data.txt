@@ -1,0 +1,148 @@
+Apple is a food item in the Fruit category. It contains 52 calories per serving. Its macronutrient profile includes 0.3g of protein, 14.0g of carbohydrates, and 0.2g of fats. It is a source of vitamins like C and minerals such as Potassium. Key details: Low calorie snack, good for weight loss and heart health.
+
+Banana is a food item in the Fruit category. It contains 89 calories per serving. Its macronutrient profile includes 1.1g of protein, 23.0g of carbohydrates, and 0.3g of fats. It is a source of vitamins like B6 and minerals such as Magnesium. Key details: High energy, good for pre-workout and breakfast.
+
+Orange is a food item in the Fruit category. It contains 47 calories per serving. Its macronutrient profile includes 0.9g of protein, 12.0g of carbohydrates, and 0.1g of fats. It is a source of vitamins like C and minerals such as Calcium. Key details: Immunity booster, high Vitamin C, hydrating.
+
+Mango is a food item in the Fruit category. It contains 60 calories per serving. Its macronutrient profile includes 0.8g of protein, 15.0g of carbohydrates, and 0.4g of fats. It is a source of vitamins like A; C and minerals such as Potassium. Key details: Sweet summer fruit, Vitamin A rich. Moderate sugar.
+
+Grapes is a food item in the Fruit category. It contains 69 calories per serving. Its macronutrient profile includes 0.7g of protein, 18.0g of carbohydrates, and 0.2g of fats. It is a source of vitamins like C and minerals such as Potassium. Key details: Antioxidant rich, sweet snack, good for skin.
+
+Papaya is a food item in the Fruit category. It contains 43 calories per serving. Its macronutrient profile includes 0.5g of protein, 11.0g of carbohydrates, and 0.3g of fats. It is a source of vitamins like A; C and minerals such as Potassium. Key details: Great for digestion, low calorie, high antioxidants.
+
+Watermelon is a food item in the Fruit category. It contains 30 calories per serving. Its macronutrient profile includes 0.6g of protein, 8.0g of carbohydrates, and 0.2g of fats. It is a source of vitamins like A; C and minerals such as Potassium. Key details: Hydrating, very low calorie volume food, summer fruit.
+
+Pomegranate is a food item in the Fruit category. It contains 83 calories per serving. Its macronutrient profile includes 1.7g of protein, 19.0g of carbohydrates, and 1.2g of fats. It is a source of vitamins like C; K and minerals such as Folate. Key details: High antioxidants, good for blood flow and heart.
+
+Guava is a food item in the Fruit category. It contains 68 calories per serving. Its macronutrient profile includes 2.6g of protein, 14.0g of carbohydrates, and 0.9g of fats. It is a source of vitamins like C and minerals such as Fiber. Key details: Very high fiber and Vitamin C, low glycemic index.
+
+Custard Apple (Sitaphal) is a food item in the Fruit category. It contains 94 calories per serving. Its macronutrient profile includes 2.1g of protein, 24.0g of carbohydrates, and 0.3g of fats. It is a source of vitamins like C; A and minerals such as Magnesium. Key details: Sweet creamy fruit, high energy, good for weight gain.
+
+Pineapple is a food item in the Fruit category. It contains 50 calories per serving. Its macronutrient profile includes 0.5g of protein, 13.0g of carbohydrates, and 0.1g of fats. It is a source of vitamins like C and minerals such as Manganese. Key details: Anti-inflammatory, contains bromelain for digestion.
+
+Strawberry is a food item in the Fruit category. It contains 33 calories per serving. Its macronutrient profile includes 0.7g of protein, 8.0g of carbohydrates, and 0.3g of fats. It is a source of vitamins like C and minerals such as Magnesium. Key details: Keto friendly, very low calorie, antioxidants.
+
+Kiwi is a food item in the Fruit category. It contains 61 calories per serving. Its macronutrient profile includes 1.1g of protein, 15.0g of carbohydrates, and 0.5g of fats. It is a source of vitamins like C; K and minerals such as Folate. Key details: Immunity booster, helps with sleep and digestion.
+
+Spinach (Palak) is a food item in the Vegetable category. It contains 23 calories per serving. Its macronutrient profile includes 2.9g of protein, 3.6g of carbohydrates, and 0.4g of fats. It is a source of vitamins like A; C and minerals such as Iron. Key details: Superfood, high iron, low calorie, essential for blood.
+
+Broccoli is a food item in the Vegetable category. It contains 34 calories per serving. Its macronutrient profile includes 2.8g of protein, 7.0g of carbohydrates, and 0.4g of fats. It is a source of vitamins like C; K and minerals such as Calcium. Key details: High protein vegetable, fiber rich, bodybuilding staple.
+
+Cauliflower (Gobi) is a food item in the Vegetable category. It contains 25 calories per serving. Its macronutrient profile includes 1.9g of protein, 5.0g of carbohydrates, and 0.3g of fats. It is a source of vitamins like C and minerals such as Potassium. Key details: Low carb, keto friendly rice substitute.
+
+Cabbage is a food item in the Vegetable category. It contains 25 calories per serving. Its macronutrient profile includes 1.3g of protein, 6.0g of carbohydrates, and 0.1g of fats. It is a source of vitamins like C and minerals such as Potassium. Key details: Low calorie, filling, good for weight loss salads.
+
+Carrot is a food item in the Vegetable category. It contains 41 calories per serving. Its macronutrient profile includes 0.9g of protein, 10.0g of carbohydrates, and 0.2g of fats. It is a source of vitamins like A and minerals such as Potassium. Key details: Good for eye health, crunchy low calorie snack.
+
+Potato is a food item in the Vegetable category. It contains 87 calories per serving. Its macronutrient profile includes 2.0g of protein, 20.0g of carbohydrates, and 0.1g of fats. It is a source of vitamins like C and minerals such as Potassium. Key details: Energy dense carb source, good for bulking.
+
+Sweet Potato is a food item in the Vegetable category. It contains 86 calories per serving. Its macronutrient profile includes 1.6g of protein, 20.0g of carbohydrates, and 0.1g of fats. It is a source of vitamins like A and minerals such as Manganese. Key details: Complex slow-digesting carbs, great pre-workout.
+
+Tomato is a food item in the Vegetable category. It contains 18 calories per serving. Its macronutrient profile includes 0.9g of protein, 3.9g of carbohydrates, and 0.2g of fats. It is a source of vitamins like C and minerals such as Potassium. Key details: Versatile cooking base, heart healthy lycopene.
+
+Onion is a food item in the Vegetable category. It contains 40 calories per serving. Its macronutrient profile includes 1.1g of protein, 9.0g of carbohydrates, and 0.1g of fats. It is a source of vitamins like C and minerals such as Folate. Key details: Flavor base, antioxidant and anti-inflammatory.
+
+Cucumber is a food item in the Vegetable category. It contains 15 calories per serving. Its macronutrient profile includes 0.7g of protein, 3.6g of carbohydrates, and 0.1g of fats. It is a source of vitamins like K and minerals such as Magnesium. Key details: Hydrating, zero fat, weight loss staple.
+
+Bottle Gourd (Lauki) is a food item in the Vegetable category. It contains 15 calories per serving. Its macronutrient profile includes 0.2g of protein, 3.6g of carbohydrates, and 0.1g of fats. It is a source of vitamins like C and minerals such as Zinc. Key details: Extremely low calorie, cooling, good for digestion.
+
+Bitter Gourd (Karela) is a food item in the Vegetable category. It contains 17 calories per serving. Its macronutrient profile includes 1.0g of protein, 3.7g of carbohydrates, and 0.1g of fats. It is a source of vitamins like C and minerals such as Iron. Key details: Good for diabetics, regulates blood sugar.
+
+Okra (Lady Finger) is a food item in the Vegetable category. It contains 33 calories per serving. Its macronutrient profile includes 1.9g of protein, 7.5g of carbohydrates, and 0.2g of fats. It is a source of vitamins like C; K and minerals such as Magnesium. Key details: High fiber, good for gut health.
+
+Eggplant (Brinjal) is a food item in the Vegetable category. It contains 25 calories per serving. Its macronutrient profile includes 1.0g of protein, 6.0g of carbohydrates, and 0.2g of fats. It is a source of vitamins like B and minerals such as Potassium. Key details: Low calorie, high fiber, versatile veggie.
+
+Capsicum is a food item in the Vegetable category. It contains 20 calories per serving. Its macronutrient profile includes 0.9g of protein, 4.6g of carbohydrates, and 0.2g of fats. It is a source of vitamins like C and minerals such as Iron. Key details: Metabolism booster, low calorie, adds crunch.
+
+Green Peas (Matar) is a food item in the Vegetable category. It contains 81 calories per serving. Its macronutrient profile includes 5.4g of protein, 14.0g of carbohydrates, and 0.4g of fats. It is a source of vitamins like A; C and minerals such as Iron. Key details: High protein vegetable, sweet and filling.
+
+Green Beans is a food item in the Vegetable category. It contains 31 calories per serving. Its macronutrient profile includes 1.8g of protein, 7.0g of carbohydrates, and 0.2g of fats. It is a source of vitamins like C; K and minerals such as Calcium. Key details: Low calorie, fiber rich side dish.
+
+Mushroom is a food item in the Vegetable category. It contains 22 calories per serving. Its macronutrient profile includes 3.1g of protein, 3.3g of carbohydrates, and 0.3g of fats. It is a source of vitamins like D and minerals such as Selenium. Key details: High protein vegetable option, immunity booster.
+
+Beetroot is a food item in the Vegetable category. It contains 43 calories per serving. Its macronutrient profile includes 1.6g of protein, 10.0g of carbohydrates, and 0.2g of fats. It is a source of vitamins like B9 and minerals such as Manganese. Key details: Improves blood flow and stamina, nitric oxide rich.
+
+Rice (White) is a food item in the Grain category. It contains 130 calories per serving. Its macronutrient profile includes 2.7g of protein, 28.0g of carbohydrates, and 0.3g of fats. It is a source of vitamins like B and minerals such as Magnesium. Key details: Staple carb source, provides quick energy.
+
+Brown Rice is a food item in the Grain category. It contains 111 calories per serving. Its macronutrient profile includes 2.6g of protein, 23.0g of carbohydrates, and 0.9g of fats. It is a source of vitamins like B and minerals such as Magnesium. Key details: Whole grain, fiber rich, slow digesting energy.
+
+Wheat Roti is a food item in the Grain category. It contains 264 calories per serving. Its macronutrient profile includes 9.0g of protein, 48.0g of carbohydrates, and 2.0g of fats. It is a source of vitamins like B and minerals such as Iron. Key details: Whole wheat staple bread, good fiber and energy.
+
+Oats is a food item in the Grain category. It contains 389 calories per serving. Its macronutrient profile includes 16.9g of protein, 66.0g of carbohydrates, and 6.9g of fats. It is a source of vitamins like B and minerals such as Iron. Key details: High fiber breakfast, lowers cholesterol, heart healthy.
+
+Quinoa is a food item in the Grain category. It contains 120 calories per serving. Its macronutrient profile includes 4.4g of protein, 21.0g of carbohydrates, and 1.9g of fats. It is a source of vitamins like B and minerals such as Magnesium. Key details: Complete protein grain, gluten free superfood.
+
+Ragi (Finger Millet) is a food item in the Grain category. It contains 328 calories per serving. Its macronutrient profile includes 7.3g of protein, 72.0g of carbohydrates, and 1.3g of fats. It is a source of vitamins like D and minerals such as Calcium. Key details: Extremely high calcium, good for bones and cooling.
+
+Jowar (Sorghum) is a food item in the Grain category. It contains 329 calories per serving. Its macronutrient profile includes 11.0g of protein, 72.0g of carbohydrates, and 3.0g of fats. It is a source of vitamins like B and minerals such as Iron. Key details: Gluten free millet, good for weight loss and diabetics.
+
+Corn (Maize) is a food item in the Grain category. It contains 86 calories per serving. Its macronutrient profile includes 3.2g of protein, 19.0g of carbohydrates, and 1.2g of fats. It is a source of vitamins like B and minerals such as Magnesium. Key details: Sweet carb source, high fiber.
+
+Toor Dal is a food item in the Legume category. It contains 343 calories per serving. Its macronutrient profile includes 22.0g of protein, 63.0g of carbohydrates, and 1.5g of fats. It is a source of vitamins like B and minerals such as Potassium. Key details: Staple Indian protein, essential amino acids.
+
+Moong Dal is a food item in the Legume category. It contains 347 calories per serving. Its macronutrient profile includes 24.0g of protein, 63.0g of carbohydrates, and 1.2g of fats. It is a source of vitamins like B and minerals such as Iron. Key details: Easily digestible protein, good for recovery and illness.
+
+Masoor Dal is a food item in the Legume category. It contains 343 calories per serving. Its macronutrient profile includes 25.0g of protein, 60.0g of carbohydrates, and 1.0g of fats. It is a source of vitamins like B and minerals such as Iron. Key details: High protein red lentils, quick cooking.
+
+Chana Dal is a food item in the Legume category. It contains 360 calories per serving. Its macronutrient profile includes 21.0g of protein, 60.0g of carbohydrates, and 5.0g of fats. It is a source of vitamins like B and minerals such as Zinc. Key details: Fiber rich, low glycemic index, diabetic friendly.
+
+Chickpeas (Chole) is a food item in the Legume category. It contains 164 calories per serving. Its macronutrient profile includes 8.9g of protein, 27.0g of carbohydrates, and 2.6g of fats. It is a source of vitamins like B6 and minerals such as Iron. Key details: Plant protein powerhouse, high fiber and filling.
+
+Kidney Beans (Rajma) is a food item in the Legume category. It contains 127 calories per serving. Its macronutrient profile includes 8.7g of protein, 22.8g of carbohydrates, and 0.5g of fats. It is a source of vitamins like B and minerals such as Iron. Key details: High protein and fiber, hearty meal option.
+
+Black Gram (Urad) is a food item in the Legume category. It contains 341 calories per serving. Its macronutrient profile includes 25.0g of protein, 59.0g of carbohydrates, and 1.6g of fats. It is a source of vitamins like B and minerals such as Magnesium. Key details: High protein, used in idli/dosa batter.
+
+Soya Chunks is a food item in the Protein category. It contains 345 calories per serving. Its macronutrient profile includes 52.0g of protein, 33.0g of carbohydrates, and 0.5g of fats. It is a source of vitamins like B and minerals such as Iron. Key details: Highest vegetarian protein source, muscle building.
+
+Tofu is a food item in the Protein category. It contains 76 calories per serving. Its macronutrient profile includes 8.0g of protein, 1.9g of carbohydrates, and 4.8g of fats. It is a source of vitamins like B and minerals such as Calcium. Key details: Vegan protein, low calorie, cholesterol free.
+
+Paneer is a food item in the Dairy category. It contains 265 calories per serving. Its macronutrient profile includes 18.0g of protein, 1.2g of carbohydrates, and 21.0g of fats. It is a source of vitamins like A and minerals such as Calcium. Key details: Vegetarian protein staple, healthy fats, muscle gain.
+
+Milk (Cow) is a food item in the Dairy category. It contains 61 calories per serving. Its macronutrient profile includes 3.2g of protein, 4.8g of carbohydrates, and 3.3g of fats. It is a 
+source of vitamins like B12 and minerals such as Calcium. Key details: Essential for bone health, hydration, and growth.
+
+Curd (Dahi) is a food item in the Dairy category. It contains 98 calories per serving. Its macronutrient profile includes 11.0g of protein, 3.9g of carbohydrates, and 4.3g of fats. It is a source of vitamins like B12 and minerals such as Calcium. Key details: Probiotic, improves digestion and gut health.
+
+Greek Yogurt is a food item in the Dairy category. It contains 59 calories per serving. Its macronutrient profile includes 10.0g of protein, 3.6g of carbohydrates, and 0.4g of fats. It is a source of vitamins like B12 and minerals such as Calcium. Key details: Concentrated protein, low fat, creamy texture.
+
+Cheese (Cheddar) is a food item in the Dairy category. It contains 402 calories per serving. Its macronutrient profile includes 25.0g of protein, 1.3g of carbohydrates, and 33.0g of fats. It is a source of vitamins like A and minerals such as Calcium. Key details: Calorie dense, high protein and fat, use in moderation.
+
+Ghee is a food item in the Fat category. It contains 900 calories per serving. Its macronutrient profile includes 0.0g of protein, 0.0g of carbohydrates, and 100.0g of fats. It is a source of vitamins like A; E and minerals such as nan. Key details: Healthy saturated fat, good for joints and brain.
+
+Butter is a food item in the Fat category. It contains 717 calories per serving. Its macronutrient profile includes 0.8g of protein, 0.1g of carbohydrates, and 81.0g of fats. It is a source of vitamins like A and minerals such as nan. Key details: Calorie dense fat source, flavor enhancer.
+
+Egg (Whole) is a food item in the Protein category. It contains 155 calories per serving. Its macronutrient profile includes 13.0g of protein, 1.1g of carbohydrates, and 11.0g of fats. It is a source of vitamins like D; B12 and minerals such as Iron. Key details: Complete protein, gold standard for muscle repair.
+
+Egg White is a food item in the Protein category. It contains 52 calories per serving. Its macronutrient profile includes 11.0g of protein, 0.7g of carbohydrates, and 0.2g of fats. It is a source of vitamins like B and minerals such as Selenium. Key details: Pure lean protein, very low calorie.
+
+Chicken Breast is a food item in the Protein category. It contains 165 calories per serving. Its macronutrient profile includes 31.0g of protein, 0.0g of carbohydrates, and 3.6g of fats. It is a source of vitamins like B6 and minerals such as Phosphorus. Key details: Leanest meat source, best for cutting and muscle.
+
+Chicken Thigh is a food item in the Protein category. It contains 209 calories per serving. Its macronutrient profile includes 26.0g of protein, 0.0g of carbohydrates, and 10.9g of fats. It is a source of vitamins like B6 and minerals such as Zinc. Key details: Juicy meat, higher fat content, good for bulking.
+
+Mutton (Goat) is a food item in the Protein category. It contains 250 calories per serving. Its macronutrient profile includes 26.0g of protein, 0.0g of carbohydrates, and 17.0g of fats. It is a source of vitamins like B12 and minerals such as Iron. Key details: Red meat, high protein and iron, high saturated fat.
+
+Fish (Rohu/Katla) is a food item in the Protein category. It contains 97 calories per serving. Its macronutrient profile includes 17.0g of protein, 2.0g of carbohydrates, and 3.0g of fats. It is a source of vitamins like D and minerals such as Potassium. Key details: Lean freshwater fish, standard Indian protein.
+
+Salmon is a food item in the Protein category. It contains 208 calories per serving. Its macronutrient profile includes 20.0g of protein, 0.0g of carbohydrates, and 13.0g of fats. It is a source of vitamins like D and minerals such as Omega-3. Key details: Fatty fish, excellent for brain and heart health.
+
+Prawns/Shrimp is a food item in the Protein category. It contains 99 calories per serving. Its macronutrient profile includes 24.0g of protein, 0.2g of carbohydrates, and 0.3g of fats. It is a source of vitamins like B12 and minerals such as Selenium. Key details: Very lean protein, low calorie seafood.
+
+Almonds is a food item in the Nut category. It contains 579 calories per serving. Its macronutrient profile includes 21.0g of protein, 22.0g of carbohydrates, and 49.0g of fats. It is a source of vitamins like E and minerals such as Magnesium. Key details: Brain food, healthy fats, energy dense snack.
+
+Walnuts is a food item in the Nut category. It contains 654 calories per serving. Its macronutrient profile includes 15.0g of protein, 14.0g of carbohydrates, and 65.0g of fats. It is a source of vitamins like B6 and minerals such as Omega-3. Key details: Best nut for brain health and inflammation.
+
+Peanuts is a food item in the Nut category. It contains 567 calories per serving. Its macronutrient profile includes 26.0g of protein, 16.0g of carbohydrates, and 49.0g of fats. It is a source of vitamins like B and minerals such as Magnesium. Key details: Affordable high protein snack, calorie dense.
+
+Cashews is a food item in the Nut category. It contains 553 calories per serving. Its macronutrient profile includes 18.0g of protein, 30.0g of carbohydrates, and 44.0g of fats. It is a source of vitamins like K and minerals such as Zinc. Key details: Creamy nut, good for energy and mineral balance.
+
+Chia Seeds is a food item in the Seed category. It contains 486 calories per serving. Its macronutrient profile includes 17.0g of protein, 42.0g of carbohydrates, and 31.0g of fats. It is a source of vitamins like B and minerals such as Calcium. Key details: Superfood, high fiber and Omega-3, hydration.
+
+Flax Seeds is a food item in the Seed category. It contains 534 calories per serving. Its macronutrient profile includes 18.0g of protein, 29.0g of carbohydrates, and 42.0g of fats. It is a source of vitamins like B1 and minerals such as Omega-3. Key details: Heart healthy, good for digestion and skin.
+
+Pumpkin Seeds is a food item in the Seed category. It contains 559 calories per serving. Its macronutrient profile includes 30.0g of protein, 10.0g of carbohydrates, and 49.0g of fats. It is a source of vitamins like K and minerals such as Zinc. Key details: Men's health, high zinc and magnesium.
+
+Olive Oil is a food item in the Fat category. It contains 884 calories per serving. Its macronutrient profile includes 0.0g of protein, 0.0g of carbohydrates, and 100.0g of fats. It is a source of vitamins like E and minerals such as K. Key details: Heart healthy cooking oil, anti-inflammatory.
+
+Coconut Oil is a food item in the Fat category. It contains 862 calories per serving. Its macronutrient profile includes 0.0g of protein, 0.0g of carbohydrates, and 100.0g of fats. It is a source of vitamins like E and minerals such as nan. Key details: Good for high heat cooking, MCTs for energy.
+
+Mustard Oil is a food item in the Fat category. It contains 884 calories per serving. Its macronutrient profile includes 0.0g of protein, 0.0g of carbohydrates, and 100.0g of fats. It is a source of vitamins like E and minerals such as Omega-3. Key details: Traditional Indian oil, good for heart and immunity.

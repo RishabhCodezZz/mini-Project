@@ -1,0 +1,7 @@
+torch
+chromadb
+sentence-transformers
+google-generativeai
+flask
+flask-cors
+torch

@@ -1,0 +1,23 @@
+# Node / React
+node_modules/
+react-frontend/node_modules/
+react-frontend/build/
+react-frontend/.parcel-cache/
+react-frontend/.next/
+
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+
+# Generated vector store
+backend/chroma_db/
+
+# OS / IDE junk
+.DS_Store
+.vscode/
