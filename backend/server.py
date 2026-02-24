@@ -10,7 +10,7 @@ import os
 # ==============================
 # CONFIGURATION
 # ==============================
-GEMINI_API_KEY = "AIzaSyAhPOVe5mIrpGwHBfIprW97BQJJBiBbJwc"  # 🔴 Don't forget your key!
+GEMINI_API_KEY = "GEMINI API KEY"  # 🔴 Don't forget your key!
 
 CHROMA_PATH = "./chroma_db"
 COLLECTION_NAME = "nutrition_data"
