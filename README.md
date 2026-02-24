@@ -6,7 +6,7 @@ A retrieval-augmented chatbot that suggests personalized diet plans from a curat
 
 - **Personalized answers**: Prompt enforces age/weight/goal awareness, portions, and “why” reasoning.
 - **RAG stack**: ChromaDB with `all-mpnet-base-v2` embeddings; cross-encoder reranker `ms-marco-MiniLM-L-6-v2`.
-- **LLM**: Gemini `gemini-1.0-flash` for generation.
+- **LLM**: Gemini `gemini-2.5-flash` for generation.
 - **Frontend UX**: Dark/light mode, speech synthesis read-aloud, bouncing typing indicator, sidebar “New Chat” that fully resets history.
 - **Sources**: Returns titles of the retrieved food items for transparency.
 
