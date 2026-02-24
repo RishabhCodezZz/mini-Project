@@ -1,11 +1,16 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Sun, Moon, Volume2, MessageSquare, StopCircle } from 'lucide-react';
+import { translate } from '../utils/translator';
 
 const ChatInterface = ({ isDarkMode, onToggleDarkMode, resetCounter }) => {
     const [messages, setMessages] = useState([]);
     const [inputValue, setInputValue] = useState('');
     const [isLoading, setIsLoading] = useState(false);
-    const [isSpeaking, setIsSpeaking] = useState(false); // Track speech status
+    const [isSpeaking, setIsSpeaking] = useState(false);
+    
+    // NEW: State for the Language Dropdown
+    const [preferredLang, setPreferredLang] = useState('auto'); 
+
     const messagesEndRef = useRef(null);
 
     const scrollToBottom = () => {
@@ -16,20 +21,33 @@ const ChatInterface = ({ isDarkMode, onToggleDarkMode, resetCounter }) => {
         scrollToBottom();
     }, [messages]);
 
-    // === IMPROVED TEXT TO SPEECH ===
-    const speakText = (text) => {
+    // === IMPROVED TEXT TO SPEECH (WITH MULTI-LANGUAGE SUPPORT) ===
+    const speakText = (text, langCode = 'en') => {
         if (isSpeaking) {
             window.speechSynthesis.cancel();
             setIsSpeaking(false);
             return;
         }
 
-        window.speechSynthesis.cancel(); // Stop any previous speech
+        window.speechSynthesis.cancel(); 
         const utterance = new SpeechSynthesisUtterance(text);
         
-        // Optional: Choose a better voice if available
+        const ttsLangMap = {
+            'hi': 'hi-IN',
+            'te': 'te-IN',
+            'en': 'en-US'
+        };
+        
+        const targetLang = ttsLangMap[langCode] || 'en-US';
+        utterance.lang = targetLang;
+
         const voices = window.speechSynthesis.getVoices();
-        const preferredVoice = voices.find(v => v.name.includes('Google') || v.name.includes('Natural'));
+        let preferredVoice = voices.find(v => v.lang.includes(targetLang));
+        
+        if (!preferredVoice) {
+            preferredVoice = voices.find(v => v.name.includes('Google') || v.name.includes('Natural'));
+        }
+        
         if (preferredVoice) utterance.voice = preferredVoice;
 
         utterance.rate = 1.0; 
@@ -58,21 +76,41 @@ const ChatInterface = ({ isDarkMode, onToggleDarkMode, resetCounter }) => {
         setIsLoading(true);
 
         try {
+            // 1. Translate input to English
+            const englishInputRes = await translate(userMessage.content, { to: 'en' });
+            const englishText = englishInputRes.text;
+            
+            // 2. Detect what language they typed in
+            const detectedLang = englishInputRes.from?.language?.iso || 'en';
+
+            // 3. Decide final output language based on the Dropdown (or fallback to detected)
+            const targetOutputLang = preferredLang === 'auto' ? detectedLang : preferredLang;
+
+            // 4. Fetch response from Python backend using English text
             const response = await fetch('http://localhost:5000/api/search', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ query: userMessage.content })
+                body: JSON.stringify({ query: englishText }) 
             });
 
             const data = await response.json();
 
             if (data.success) {
+                let finalAnswer = data.answer;
+
+                // 5. Translate the bot's response to the requested language
+                if (targetOutputLang !== 'en') {
+                    const translatedOutputRes = await translate(finalAnswer, { to: targetOutputLang });
+                    finalAnswer = translatedOutputRes.text;
+                }
+
                 const aiMessage = {
                     id: Date.now() + 1,
                     role: 'assistant',
-                    content: data.answer,
+                    content: finalAnswer, 
                     sources: data.sources || [],
-                    timestamp: new Date()
+                    timestamp: new Date(),
+                    langCode: targetOutputLang // Save language for Voice Reader
                 };
                 setMessages(prev => [...prev, aiMessage]);
             } else {
@@ -84,10 +122,11 @@ const ChatInterface = ({ isDarkMode, onToggleDarkMode, resetCounter }) => {
                 }]);
             }
         } catch (error) {
+            console.error("Chat Error:", error);
             setMessages(prev => [...prev, {
                 id: Date.now() + 1,
                 role: 'assistant',
-                content: "Error: Could not connect to the backend. Is server.py running?",
+                content: "Error: Could not process the request. Make sure your Python server is running.",
                 timestamp: new Date()
             }]);
         } finally {
@@ -97,7 +136,6 @@ const ChatInterface = ({ isDarkMode, onToggleDarkMode, resetCounter }) => {
 
     const hasMessages = messages.length > 0;
 
-    // Reset conversation whenever the parent increments resetCounter
     useEffect(() => {
         setMessages([]);
         setInputValue('');
@@ -120,6 +158,22 @@ const ChatInterface = ({ isDarkMode, onToggleDarkMode, resetCounter }) => {
                 </div>
 
                 <div className="flex items-center space-x-3">
+                    {/* NEW: Language Selector Dropdown */}
+                    <select 
+                        value={preferredLang} 
+                        onChange={(e) => setPreferredLang(e.target.value)}
+                        className={`text-sm font-medium border rounded-lg px-2 py-1.5 outline-none transition-colors ${
+                            isDarkMode 
+                            ? 'bg-[#242526] border-[#2A2B32] text-white hover:border-gray-500' 
+                            : 'bg-white border-gray-300 text-gray-700 hover:border-gray-400'
+                        }`}
+                    >
+                        <option value="auto">Auto-Detect</option>
+                        <option value="en">English</option>
+                        <option value="hi">Hindi (हिंदी)</option>
+                        <option value="te">Telugu (తెలుగు)</option>
+                    </select>
+
                     <button onClick={onToggleDarkMode} className={`p-2 rounded-full transition-colors ${isDarkMode ? 'hover:bg-[#2A2B32] text-slate-300' : 'hover:bg-gray-100 text-gray-600'}`}>
                         {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
                     </button>
@@ -145,11 +199,11 @@ const ChatInterface = ({ isDarkMode, onToggleDarkMode, resetCounter }) => {
                             }`}>
                             <p className="text-sm md:text-base leading-relaxed whitespace-pre-wrap">{message.content}</p>
 
-                            {/* === READ ALOUD BUTTON AT THE END === */}
+                            {/* === READ ALOUD BUTTON === */}
                             {message.role === 'assistant' && (
                                 <div className="mt-4 pt-3 border-t border-gray-500/20 flex items-center justify-between">
                                     <button 
-                                        onClick={() => speakText(message.content)}
+                                        onClick={() => speakText(message.content, message.langCode)}
                                         className={`flex items-center space-x-2 text-xs font-medium transition-colors px-3 py-1.5 rounded-full ${
                                             isSpeaking 
                                             ? 'bg-red-100 text-red-600 hover:bg-red-200' 
